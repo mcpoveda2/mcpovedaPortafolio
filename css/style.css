@@ -1,0 +1,89 @@
+/* Importar las fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+.gradient-background {
+    background: linear-gradient(
+      300deg,
+      #0F2E2A, /* Color más oscuro de la paleta */
+      #3F7068 , /* Verde mediano */
+      #85A79D, /* Verde claro */
+      #D0DED9  /* Color más claro */
+    );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .image-side {
+    background-image: url('./imagenes/FondoMain3.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%; /* Ajusta según sea necesario */
+    display: flex;
+    justify-content: center; /* Centra la imagen en la columna */
+    align-items: center; /* Centra verticalmente */
+  }
+
+  .profile-img {
+    border-radius: 10%;
+  }
+  
+  .text{
+    font-family: 'Open Sans', sans-serif; /* Fuente principal para el cuerpo del texto */
+    color: #0D2624; /* Color de texto principal */
+  }
+
+  .title{
+    font-family: 'Segoe UI', sans-serif; /* Tipografía para títulos */
+    color: #0B1E1D; /* Color para títulos */
+  }
+
+  .color-resaltar{
+    color: #424B4A;
+    font-weight: bold;
+
+    }
+
+ .titleh2{
+    color: #16423C;
+ }
+
+ #carouselExample {
+    width: 75%; /* Ajusta el ancho según lo necesites */
+    margin: 0 auto; /* Centra el carrusel */
+}
+
+.contacteme{
+    width: 50%; /* Ajusta el ancho según lo necesites */
+    margin: 0 auto; /* Centra el carrusel */
+}
+
+.bottonme{
+    width: 30%;
+    background-color: #F2A055;
+}
+
+
+.backgroundprojects{
+    background-color: #D0DED9;
+}
+  
+
+  
